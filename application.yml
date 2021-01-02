@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/sample2?createDatabaseIfNotExsist=true
+    url: jdbc:mysql://localhost:3306/rentCardb?createDatabaseIfNotExsist=true
     username: root
     password: 1234
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       naming:
